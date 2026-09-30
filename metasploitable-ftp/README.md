@@ -14,13 +14,24 @@ Realizar testes de invasão em um laboratório isolado utilizando o **Metasploit
 1. Descoberta e Enumeração do Alvo
 Primeiro, identifiquei o IP da máquina alvo na rede interna do laboratório e verifiquei quais portas e serviços estavam abertos (com foco na porta 21 do FTP).
 
-2. Criação da Wordlist
+<img width="629" height="475" alt="image" src="https://github.com/user-attachments/assets/20f07f6d-4a12-41d0-a71f-4f0b51eab07f" />
+
+
+3. Criação da Wordlist
 Criei um arquivo de texto (senhas.txt) contendo uma lista de possíveis senhas e usuários comuns para realizar o teste de autenticação.
 
-3. Execução do Ataque de Força Bruta (Medusa)
+<img width="516" height="101" alt="image" src="https://github.com/user-attachments/assets/06349521-14da-45b3-bb90-4c1a37749d48" />
+
+
+5. Execução do Ataque de Força Bruta (Medusa)
 Utilizei o Medusa no terminal para testar as combinações de usuário e senha contra o serviço de FTP do Metasploitable. O comando utilizado foi semelhante a este:
 
 medusa -h  -u msfadmin -P senhas.txt -M ftp
 
 4. Resultado e Acesso Conquistado 🎉
 O Medusa testou as entradas da wordlist e encontrou a senha correspondente com sucesso! Com as credenciais validadas, foi possível estabelecer uma conexão FTP com o alvo.
+
+<img width="1297" height="534" alt="image" src="https://github.com/user-attachments/assets/2916dec1-480a-4a73-97af-83bc6606e292" />
+
+
+
