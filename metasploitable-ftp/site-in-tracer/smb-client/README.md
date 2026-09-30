@@ -26,6 +26,7 @@ O terminal registrou com sucesso a validação da credencial correta (ACCOUNT FO
 <img width="1291" height="552" alt="image" src="https://github.com/user-attachments/assets/d00896af-3c21-4349-9fbf-c7f20251167a" />
 
 
-📌 O que foi aprendidoA importância da enumeração prévia (com ferramentas como o Enum4Linux) para alimentar testes de força bruta com usuários reais, aumentando a eficiência do processo.
-  O funcionamento do protocolo SMB e como serviços de compartilhamento mal configurados ou com credenciais padrão (msfadmin:msfadmin) representam vetores críticos de intrusão.  
-  Como auditar e documentar testes de credenciais de forma segura e controlada em laboratórios isolados.
+## 📌 O que foi aprendido
+* **Importância da enumeração prévia:** Compreender como o uso de ferramentas como o Enum4Linux permite coletar usuários reais para alimentar os ataques de força bruta, aumentando a eficiência do processo.
+* **Funcionamento do protocolo SMB:** Entender como serviços de compartilhamento de arquivos lidam com credenciais e permissões (como o acesso ao `ADMIN$`).
+* **Validação de credenciais padrão:** Constatação de como contas pré-configuradas em ambientes vulneráveis representam vetores críticos de entrada.
