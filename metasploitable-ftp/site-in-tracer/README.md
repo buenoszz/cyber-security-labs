@@ -21,9 +21,7 @@ O terminal registrou com sucesso a verificação e o encontro de múltiplas comb
 
 <img width="1326" height="804" alt="cyber-teste" src="https://github.com/user-attachments/assets/67a8377f-e4dd-47bb-af5b-ac32a37673da" />
 
-📌 O que foi aprendido
-Compreensão de como requisições HTTP e formulários de login web processam falhas de autenticação.
-
-Importância de configurar parâmetros de negação de resposta (FAIL) para evitar falsos positivos em ferramentas de força bruta.
-
-Conscientização sobre a necessidade de aplicar defesas robustas em aplicações web, como a implementação de mecanismos contra força bruta (bloqueio de IP após tentativas consecutivas) e autenticação em dois fatores (2FA).
+## 📌 O que foi aprendido
+* **Compreensão de requisições web:** Entender como formulários de login HTTP processam falhas e sucessos de autenticação em aplicações reais ou simuladas.
+* **Uso de parâmetros condicionais:** A importância de configurar strings de erro exatas (como a flag `FAIL`) para evitar falsos positivos durante os testes.
+* **Mitigação de riscos:** Conscientização sobre a necessidade de implementar bloqueios de IP, limites de tentativas e autenticação multifator (2FA) para proteger sistemas web.
