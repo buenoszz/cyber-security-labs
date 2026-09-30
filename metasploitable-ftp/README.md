@@ -33,5 +33,10 @@ O Medusa testou as entradas da wordlist e encontrou a senha correspondente com s
 
 <img width="1297" height="534" alt="image" src="https://github.com/user-attachments/assets/2916dec1-480a-4a73-97af-83bc6606e292" />
 
+## 📌 O que foi aprendido
+* **Identificação de Portas e Serviços:** Compreensão de como o serviço de FTP (porta 21) é executado no Metasploitable e quais respostas ele retorna durante tentativas de autenticação.
+* **Validação de Contas Padrão:** Constatação prática de que credenciais padrão de fábrica (como as do ambiente Metasploitable) são o vetor mais rápido de comprometimento em auditorias de segurança.
+* **Diferença de Protocolos:** Perceber como cada serviço (`http`, `smbnt` e o FTP) lida com conexões paralelas e restrições de tentativas, exigindo módulos específicos no Medusa para cada tipo de alvo.
+
 
 
